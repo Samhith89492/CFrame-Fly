@@ -1,4 +1,4 @@
-local Speed = 50
+local Speed = 150
 
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LegitH3x0R/Roblox-Scripts/main/AEBypassing/RootAnchor.lua"))()
