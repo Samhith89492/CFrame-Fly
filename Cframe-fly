@@ -1,4 +1,4 @@
-local Speed = 50
+local Speed = 150
 
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Samhith89492/RootAnchor.lua"))()
