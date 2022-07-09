@@ -1,7 +1,7 @@
 local Speed = 150
 
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Samhith89492/RootAnchor.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Samhith89492/CFrame-Fly/main/RootAnchor"))()
 local UIS = game:GetService("UserInputService")
 local OnRender = game:GetService("RunService").RenderStepped
 
@@ -67,3 +67,10 @@ while true do -- not EndAll
         end
     end
 end
+
+--[[C1:Disconnect()
+C2:Disconnect()
+C3:Disconnect()
+if Nav.Flying then
+    Root.Anchored = false
+end]]
